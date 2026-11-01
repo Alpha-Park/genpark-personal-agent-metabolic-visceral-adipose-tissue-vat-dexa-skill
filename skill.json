@@ -1,0 +1,23 @@
+{
+  "name": "genpark-personal-agent-metabolic-visceral-adipose-tissue-vat-dexa-skill",
+  "version": "1.0.0",
+  "description": "DEXA visceral adipose tissue area (VAT, cm2) and android-to-gynoid ratio cardiometabolic hazard predictor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_visceral_adipose_tissue_hazard",
+      "description": "DEXA visceral adipose tissue area (VAT, cm2) and android-to-gynoid ratio cardiometabolic hazard predictor.",
+      "sample_input": {
+        "vat_area_cm2": 118.0,
+        "android_fat_pct": 32.5,
+        "gynoid_fat_pct": 28.0,
+        "sex": "MALE",
+        "bmi": 24.2
+      }
+    }
+  ]
+}
